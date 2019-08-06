@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background: #000000e0;
+    font-family: 'Orbitron', sans-serif;
+}
+h1{
+    margin: 4vh 0 3vh 0;
+    font-size: 6vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr{
+    width: 40px;
+    margin: 1vh auto;
+}
+#scoreDisplay{
+    width: 390px;
+    margin: 0 auto;
+    padding: 1vh 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid purple;
+    transition: all ease-in-out 100ms;
+    
+}
+#scoreDisplay div{
+    margin: 0 1vh;
+    font-size: 4vh;
+    display: inline-block;
+}
+#resultMessage{
+    margin: 4vh 0 6vh 0;
+    text-align: center;
+}
+#resultMessage h2{
+    margin: 2vh 0;
+    font-size: 3vw;
+    
+}
+#resultMessage div{
+    display: inline-block;
+    margin: 1vh 5vw 0 5vw;
+}
+#resultMessage span{
+    color: purple;
+    font-weight: 900;
+    font-size: 1.5em;
+    /* background: white; */
+    padding: 3px 2px 0px 2px;
+}
+.option{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    display: inline-block;
+    /* border: 2px solid red; */
+    
+    
+    
+    /* margin: 0 auto; */
+}
+.option div{
+    width: 25%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.option div img{
+    width: 55%;
+    padding: 2vh;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+    /* display: inline-block; */
+    transition: all ease-in-out 100ms;
+    box-shadow: 0px 0px 5px 5px purple;
+    background: rgba(82, 80, 81, 0.945);
+}
+.option div img:hover{
+    box-shadow: none;
+    transform: scale(.9);
+}
+.togborder{
+    border: 2px solid purple;
+}

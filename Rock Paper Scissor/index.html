@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissor</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Score</h1>
+    <div id="scoreDisplay">
+           User <div id="userScore">0</div> : <div id="computerScore">0</div> Comp
+    </div>
+    <div id="resultMessage">
+        <h2 id="result">Start The Game</h2>
+        <div>User: <span id="uChoice">None</span></div>
+        <div>Comp: <span id="cChoice">None</span></div>
+
+    </div>
+    
+    <div class="option">
+        <div class="rock">
+            <img style="text-align: center;" id="r" src="image/rock.png" alt="rock">
+            <br><br>
+            <h3>Rock</h3>
+        </div>
+        <div class="paper">
+            <img id="p" src="image/paper.png" alt="paper">
+            <br><br>
+            <h3>Paper</h3>
+        </div>
+        <div class="scissor">
+            <img id="s" src="image/scissor.png" alt="scissor">
+            <br><br>
+            <h3>Scissor</h3>
+        </div>
+    </div>
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!-- jQuery UI CDN -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+     integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+     crossorigin="anonymous"></script>
+    <!-- Custom Javascript -->
+    <script src="javascript.js"></script>
+</body>
+</html>
